@@ -17,7 +17,6 @@ button.publish-btn {
     margin: 15px;
     font-size: 22px;
 }
-
 @media(min-width: 320px) and (max-width: 425px){
     button.publish-btn{
         width: 55%;

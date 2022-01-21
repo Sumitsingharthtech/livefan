@@ -1,5 +1,18 @@
 import React, { useState, useEffect } from "react";
 import { ImArrowRight2 } from "react-icons/im";
+
+import AwesomeSlider from 'react-awesome-slider';
+
+import 'react-awesome-slider/dist/styles.css';
+import 'react-awesome-slider/dist/captioned.css';
+import Book1 from "./../../Assets/Images/book1.jpg";
+import Book2 from "./../../Assets/Images/book2.jpg";
+import Book3 from "./../../Assets/Images/book3.jpg";
+import Book4 from "./../../Assets/Images/book4.jpg";
+import Book5 from "./../../Assets/Images/banner.png";
+import ShowMore from 'react-show-more';
+  //  {/* background-image: url(../../Assets/Images/banner.png); */}
+
 import "./Home.css";
 import axios from "axios";
 // import { Audio } from  'react-loader-spinner'
@@ -10,13 +23,10 @@ import { Link } from "react-router-dom";
 const Home = () => {
   const [getAllBooks, setGetAllBooks] = useState([]);
   // const [loading,SetLoading]= useState(false);
-
-
-
-
   useEffect(() => {
     GetAllBooksHandler();
   }, []);
+
 
   const GetAllBooksHandler = async () => {
     let result = await axios.get("http://103.171.181.46:2081/api/books");
@@ -24,20 +34,109 @@ const Home = () => {
     setGetAllBooks(result.data.data);
     // SetLoading(true);
   };
+  const bgImg = {
+    position: "absolute",
+    zIndex: -1,
+    left: 0,
+    top: 0,
+    width: "100%"
+  };
 
   return (
     <>
+    {/* const slider = ( */}
+  <AwesomeSlider style={{height: "400px"}} interval={3000} >
+  <div style={{ zIndex: 2 }}>
+        <div>
+          <img
+            style={bgImg}
+            alt="Wow"
+            src={Book1}
+            />
+             <h1>Fanfiction
+</h1>
+          <h1>Accademy</h1>
+          <button className="banner-button" >GET INSPIRED</button>
+        </div>
+        
+      </div>
+      <div style={{ zIndex: 2 }}>
+        <div>
+          <img
+            style={bgImg}
+            alt="Wow"
+            src={Book2}
+            />
+           <h1>Fanfiction
+</h1>
+          <h1>Accademy</h1>
+          <button className="banner-button" >GET INSPIRED</button>
+        </div>
+        
+      </div>
+      <div style={{ zIndex: 2 }}>
+        <div>
+          <img
+            style={bgImg}
+            alt="Wow"
+            src={Book3}
+            />
+            <h1>Fanfiction
+</h1>
+          <h1>Accademy</h1>
+          <button className="banner-button" >GET INSPIRED</button>
+        </div>
+        
+      </div>
+      <div style={{ zIndex: 2 }}>
+        <div>
+          <img
+            style={bgImg}
+            alt="Wow"
+            src={Book4}
+            />
+          <h1>Fanfiction
+</h1>
+          <h1>Accademy</h1>
+          <button className="banner-button" >GET INSPIRED</button>
+        </div>
+        
+      </div>
+      <div style={{ zIndex: 2 }}>
+        <div>
+          <img
+            style={bgImg}
+            alt="Wow"
+            src={Book5}
+            />
+             <h1>Fanfiction
+</h1>
+          <h1>Accademy</h1>
+          <button className="banner-button" >GET INSPIRED</button>
+         
+        </div>
+        
+      </div>
+
+ 
+      
+  </AwesomeSlider>
+
+
+
       {/* ******************************************************Banner************************************************************ */}
-      <div className="banner">
+      {/* <div className="banner">
         <div className="container">
           <h1>Fanfiction</h1>
           <h1>Accademy</h1>
           <button>GET INSPIRED</button>
-          {/* <div className="contest">
+          <div className="contest">
             <button> CONTEST </button>
-          </div> */}
+          </div>
         </div>
-      </div>
+      </div> */}
+
+
       {/* *****************************************************Popular************************************************************** */}
       <div className="popular">
         <div className="container">
@@ -45,6 +144,9 @@ const Home = () => {
           <div className="popular-image">
             <div className="row">
               {
+
+
+
               // loading?
                getAllBooks.slice(0,4).map((booksData) => (
                 <div className="col-sm-12 col-md-6 col-lg-6">
@@ -57,11 +159,18 @@ const Home = () => {
                   </div>
                   <div className="popular-content">
                     <h5>{booksData.title}</h5>
-                    <p>{booksData.description}</p>
+                    <ShowMore
+lines={10}
+more='Show more'
+less='Show less'
+anchorClass='button-read-more-show-less'
+> <p>{booksData.description}</p></ShowMore>
+                    
                     <h6> Author: {booksData.author}</h6>
                   </div>
                 </div>
               ))
+
             //   :  <Audio
             //   heigth="100"
             //   width="100"
@@ -185,7 +294,13 @@ const Home = () => {
                 </div>
                 <div className="book-detail-content-a">
                   <h5>The Forsaken Boy</h5>
-                  <p>{downDummyBooks.description}</p>
+                  
+                  <ShowMore
+lines={10}
+more='Show more'
+less='Show less'
+anchorClass='second-button-read-more-show-less'
+> <p>{downDummyBooks.description}</p> </ShowMore>
                   <h6> Author: {downDummyBooks.author} </h6>
                 </div>
               </div>
