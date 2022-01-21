@@ -1,0 +1,68 @@
+.Library_main {
+  background-image: url(../../Assets/Images/libary.png);
+  width: 40%;
+  background-size: cover;
+  align-self: center;
+  height: 500px;
+  margin: 0 auto;
+  z-index: 0;
+}
+.Library_Navbar {
+  height: 110px;
+  background-color: #a06263;
+  z-index: 0;
+}
+.Library_Navbar h1 {
+  color: white;
+}
+.library-text{
+  text-align: center;
+  color: #640000;
+}
+.libraru_buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  width: 100%;
+}
+.libraru_buttons h3 {
+  color: white;
+}
+@media  screen and (max-width:1024px) {
+  .Library_main {
+    background-image: url(../../Assets/Images/libary.png);
+    width: 50%;
+    background-size: cover;
+    align-self: center;
+    height: 500px;
+    margin: 0 auto;
+    z-index: 0;
+  }
+}
+@media  screen and (max-width:768px) {
+  .Library_main {
+    background-image: url(../../Assets/Images/libary.png);
+    width: 60%;
+    background-size: cover;
+    align-self: center;
+    height: 500px;
+    margin: 0 auto;
+    z-index: 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  .libraru_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 64%;
+    margin-left: 14%;
+  }
+  .Library_main {
+    background-image: url("../../Assets/Images/libary.png");
+    width: 85%;
+    background-size: cover;
+    align-self: center;
+    height: 293px;
+  }
+}

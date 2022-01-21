@@ -1,0 +1,62 @@
+.webmap_box {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../../../Assets/Images/frame2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ffcdd6;
+}
+.webmap_title {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 30px;
+  margin-left: 180px;
+  margin-right: 40px;
+  text-align: start;
+  font-size: 55px;
+  font-weight: 800;
+}
+.webmap_content {
+  flex-direction: row;
+  justify-content: center;
+  /* padding-right: 150px;
+  padding-left: 150px;
+  padding-bottom: 360px; */
+  padding: 7rem;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: start;
+}
+.webmap_content h2 {
+  padding: 20px;
+  font-size: 38px;
+  color: #7f1d1d;
+}
+
+@media screen and (max-width: 480px) {
+  .webmap_content h2 {
+    padding: 20px;
+    font-size: 20px;
+    color: #7f1d1d;
+  }
+  .webmap_content {
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 6px;
+    padding-right: 138px;
+    padding-left: 15px;
+    margin-left: 32px;
+    margin-right: 25px;
+    text-align: start;
+  }
+  .webmap_title {
+    font-size: 13px;
+    margin-left: 11%;
+  }
+}
+
+@media (max-width: 480px) {
+  .webmap_content h2 {
+    font-size: 16px;
+  }
+}

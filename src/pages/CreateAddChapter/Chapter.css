@@ -1,0 +1,26 @@
+.chapter-button-div {
+    background: white;
+    text-align: center;
+}
+.chapter-bg{
+    display: flex;
+    flex-direction: column;
+}
+button.publish-btn {
+    width: 20%;
+    padding: 5px;
+    border-radius: 20px;
+    background: #640000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+    font-size: 22px;
+}
+
+@media(min-width: 320px) and (max-width: 425px){
+    button.publish-btn{
+        width: 55%;
+        padding: 2px;
+    }
+}

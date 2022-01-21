@@ -1,0 +1,249 @@
+/* **************************Browse Cards*********************************** */
+.browse-card {
+    float: left;
+    width: 100%;
+    background: #fcd1d9;
+    padding: 2rem 0;
+}
+.browse-card-image {
+    text-align: center;
+}
+.browse-card-image img {
+    width: 64%;
+    margin-bottom: 43px;
+}
+.browse-box-2 {
+    position: absolute;
+}
+.browse-card-book-image img {
+    border-radius: 10px;
+    width: 60%;
+    position: relative;
+    left: 105px;
+    top: -27rem;
+    height: 240px;
+}
+.browse-card-content-button {
+    text-align: center;
+    position: absolute;
+    left: 56px;
+    top: -11rem;
+    width: 100%;
+}
+.browse-card-content-button h3 {
+    color: #2e250e;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0;
+}
+.browse-card-content-button h5 {
+    color: #5e0908;
+    padding: 6px 0;
+}
+.browse-card-content-button a {
+    background: #fff;
+    padding: 2px 15px;
+    border-radius: 12px;
+    color: #640000;
+    font-weight: 600;
+}
+.browse-card-content-button button {
+    color: #640000;
+    background: #fff;
+    border: none;
+    padding: 2px 20px;
+    border-radius: 14px;
+}
+/* *********************************Browse Card text********************************************* */
+.browse-book-content{
+    float: left;
+    width: 100%;
+    padding: 2rem 0;
+    background: #ec9c9c;
+    text-align: left;
+}
+.browse-book-content-text h1 {
+    text-transform: capitalize;
+}
+.serial-no {
+    color: #640000;
+    padding: 8rem 0;
+}
+.serial-no h1{
+    font-weight: 800;
+}
+.browse-book-content-image img {
+    width: 100%;
+    border-radius: 10px;
+    height: 250px;
+    margin: 35px 0;
+}
+.browse-book-content-text {
+    padding: 3rem  0;
+}
+.browse-book-content-text h5 {
+    color: #640000;
+}
+.browse-book-content-text p {
+    text-align: justify;
+}
+.browse-book-content-button {
+    padding: 8.9rem 0;
+    text-align: center;
+}
+.browse-book-content-button a {
+    background: #640000;
+    color: #fff;
+    padding: 7px 25px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.browse-book-content-button h5 {
+    padding-top: 10px;
+    color: #5e0908;
+}
+.seemore{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #5e0908;
+    border-radius: 10px 0;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+/* *******************************MEDIA QUARY**************************** */
+@media (max-width:1024px) {
+    .browse-card-image img {
+        position: relative;
+        left: 0px;
+        width: 70%;
+    }
+    .browse-card-book-image img {
+        border-radius: 10px;
+        width: 70%;
+        position: relative;
+        left: 78px;
+        top: -26rem;
+        height: 220px;
+    }
+    .browse-card-content-button {
+        padding: 2rem 0px;
+        text-align: center;
+        position: absolute;
+        left: 44px;
+        top: -13rem;
+    }
+}
+@media (max-width:768px) {
+    .browse-card-book-image img {
+        border-radius: 10px;
+        width: 70%;
+        position: relative;
+        left: 6rem;
+        top: -29rem;
+        height: 250px;
+    }
+    .browse-card-content-button {
+        padding: 2rem 0px;
+        text-align: center;
+        position: absolute;
+        left: 50px;
+        top: -14rem;
+    }
+    .serial-no {
+        color: #640000;
+        padding: 11rem 0;
+    }
+    .browse-book-content-image img {
+        width: 100%;
+        border-radius: 10px;
+        height: 230px;
+        margin: 6rem 0;
+    }
+    .browse-book-content-button {
+        padding: 12rem 0;
+        text-align: center;
+    }
+    }
+@media (max-width:425px) {
+    .browse-card-book-image img {
+        border-radius: 10px;
+        width: 70%;
+        position: relative;
+        left: 7rem;
+        top: -32rem;
+        height: 270px;
+    }
+    .browse-card-content-button {
+        padding: 2rem 0px;
+        text-align: center;
+        position: absolute;
+        left: 4.2rem;
+        top: -14.5rem;
+    }
+    .serial-no {
+        text-align: center;
+        padding: 20px 0;
+    }
+    .browse-book-content-image img {
+        width: 50%;
+        border-radius: 10px;
+        height: 250px;
+        margin: 0 6.6rem;
+    }
+    .browse-book-content-text {
+        padding: 3rem  0;
+        text-align: center;
+    }
+    .browse-book-content-button {
+        padding: 0;
+        text-align: center;
+    }
+}
+@media (max-width:375px) {
+    .browse-card-book-image img {
+        border-radius: 10px;
+        width: 60%;
+        position: relative;
+        left: 7rem;
+        top: -29rem;
+        height: 240px;
+    }
+    .browse-card-content-button {
+        padding: 2rem 0px;
+        text-align: center;
+        position: absolute;
+        left: 3.4rem;
+        top: -14.5rem;
+    }
+    .browse-book-content-image img {
+        width: 50%;
+        border-radius: 10px;
+        height: 250px;
+        margin: 0 5.6rem;
+    }
+}
+@media (max-width:320px) {
+    .browse-card-book-image img {
+        border-radius: 10px;
+        width: 70%;
+        position: relative;
+        left: 5.5rem;
+        top: -24rem;
+        height: 190px;
+    }
+    .browse-card-content-button {
+        padding: 2rem 0px;
+        text-align: center;
+        position: absolute;
+        left: 3.4rem;
+        top: -13rem;
+    }
+    .browse-book-content-image img {
+        width: 50%;
+        border-radius: 10px;
+        height: 250px;
+        margin: 0 4.8rem;
+    }
+}

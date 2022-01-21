@@ -1,0 +1,152 @@
+.create-page{
+  position: relative;
+  background-color: #f4f6f8;
+}
+h1.novel-info {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  padding-top: 2rem;
+}
+.form-div {
+  top: 15px;
+  background: white;
+  width: 55%;
+  margin: 0 auto;
+}
+
+form.form-part {
+ margin: 30px 0 15px 0;
+}
+.label-input-div{
+  padding-top: 15px;
+  margin-left: 2rem;
+}
+.all-label {
+  font-size: 20px;
+  font-weight: bold;
+}
+.create-book-inp {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #e8eaee;
+  border-radius: 8px;
+  border-width:  0.5px;
+  width: 74%;
+}
+.create-book-inp:focus { 
+  outline: none !important;
+  border:1px solid #640000;
+}
+select.language-selection {
+  width: 73.5%;
+  padding: 10px;
+  border: 1px solid #e8eaee;
+  border-radius: 8px;
+  border-width: 1px;
+  margin-bottom: 15px;
+  background-color: white;
+}
+select.language-selection:focus{
+  outline: none;
+  border: 1px solid #640000;
+}
+.rating-star{
+  display: flex;
+}
+h1.star-icon {
+  padding-left: 25px;
+}
+select.select-type {
+  width: 73.5%;
+  padding: 10px;
+  border: 1px solid #e8eaee;
+  border-radius: 8px;
+  border-width: 1px;
+  margin-bottom: 15px;
+  background-color: white;
+}
+select.select-type:focus{
+  outline: none;
+  border: 1px solid #640000;
+}
+.text-area-1 {
+  /* resize: none; */
+  width: 74.5%;
+  height: 70px;
+  padding: 5px;
+  border: 1px solid #e8eaee;
+  border-radius: 10px;
+}
+.text-area-1:focus{
+  outline: none;
+  border: 1px solid #640000;
+}
+.btn-div {
+  width: 75%;
+  margin-top: 1rem;
+  text-align: center;
+  padding-bottom: 20px;
+}
+button.create-button {
+  background: #640000;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  width: 50%;
+  border: 1px solid #e8eaee;
+  border-width: 1px;
+  font-size: 18px;
+}
+img.icon {
+  width: 30px;
+  padding-left: 10px;
+  /* margin-top: 15px; */
+}
+@media(max-width: 1024px){
+  .form-div{
+      width: 70%;
+  }
+}
+@media(max-width: 768px){
+  .form-div{
+      width: 80%;
+  }
+}
+@media(min-width: 320px) and (max-width: 425px){
+  .form-div{
+      width: 100%;
+  }
+  h1.novel-info{
+      font-size: 25px;
+  }
+  form.form-part{
+      margin-top: -9px;
+  }
+  .label-input-div{
+      margin-left: 1rem;
+  }
+  input.create-book-inp{
+      width: 92%;
+      margin-left: -5px;
+      margin-top: 10px;
+  }
+  select.select-type{
+      width: 91.5%;
+      margin: 10px 0 0 -2px;
+  }
+  select.language-selection{
+      width: 91.5%;
+      margin: 10px 0 0 -2px;
+  }
+  textarea.text-area-1{
+      width: 95.5%;
+  }
+  .btn-div{
+      width: 100%;
+  }
+  button.create-button{
+      width: 50%;
+  }
+}

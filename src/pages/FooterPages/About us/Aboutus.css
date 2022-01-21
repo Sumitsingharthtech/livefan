@@ -1,0 +1,55 @@
+.about-box{
+    background-image: url("../../../Assets/Images/aboutbg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    float: left;
+    padding-top: 7rem;
+}
+.about-main{
+    background-image: url("../../../Assets/Images/abouticons.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 100%;
+  }
+  .about-main h2 {
+    opacity: 0.1;
+    font-size: 83px;
+    z-index: 1;
+    position: absolute;
+  }
+  .our-values {
+    padding: 40px 50px;
+  }
+  .our-values-icon img {
+    margin: 2px 11.8%;
+  }
+  .our-values-text h4 {
+    float: left;
+    padding: 10px 10.5%;
+    font-style: italic;
+  }
+  .find-fanfiction{
+    float: left;
+    width: 100%;
+  }
+  .find-fanfiction-icon {
+    float: left;
+    padding: 50px 28.5%;
+    font-style: italic;
+  }
+  /* ************************************************** */
+  @media screen and (max-width: 425px) {
+    .area_font {
+      /* font-size: 20px; */
+      color: black;
+      text-align: justify;
+      font-style: italic;
+      font-weight: 900px;
+      /* margin-left: 40px; */
+      /* margin-top: -15px; */
+      width: 100%;
+    }
+  }
+  

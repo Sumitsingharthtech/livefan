@@ -1,0 +1,1066 @@
+.authorproject {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .topPart{
+    background-image: url('../../Assets/Images/frame2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .middlePart{
+    background-image: url('../../Assets/Images/frame2.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  .bottomPart{
+    background-image: url('../../Assets/Images/frame2.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  .authorproject_bg {
+    background-color: #83729a;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    border-radius: 0 0% 100% 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: -1;
+  }
+  .authorproject_main {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+  .authorproject_main h1 {
+    font-size: 40px;
+    color: #801001;
+    font-weight: 800;
+  }
+  .authorproject_main h2 {
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+  }
+  .authorproject_title {
+    text-align: center;
+    font-size: 35px;
+  
+    font-weight: 700;
+  }
+  .authorproject_grid1 h1{
+      font-size: 23px;
+
+  }
+  .authorproject_grid1 h3 {
+    background-color: brown;
+    color: white;
+    width: 120px;
+    text-align: center;
+    border-radius: 40px;
+  }
+  .authorproject_grid2 h3 {
+    background-color: brown;
+    color: white;
+    width: 120px;
+    text-align: center;
+    border-radius: 40px;
+  }
+  .authorproject_grid3 h3 {
+    background-color: brown;
+    color: white;
+    width: 120px;
+    text-align: center;
+    border-radius: 40px;
+  }
+  .authorproject_grid4 h3 {
+    background-color: brown;
+    color: white;
+    width: 120px;
+    text-align: center;
+    border-radius: 40px;
+  }
+  .authorproject_join {
+    padding-bottom: 40px;
+  }
+  .authorproject_midbg h1 {
+    text-align: end;
+    font-size: 35px;
+    color: white;
+  
+    font-weight: 700;
+  }
+  .authorproject_program_text {
+    float: left;
+    width: 100%;
+}
+  .authorproject_arrow {
+    color: white;
+  
+    font-size: 90px;
+  }
+  .authorproject_midbg_text {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 30px;
+  }
+  .authorproject_midbg_text h1 {
+    font-size: 30px;
+    text-align: start;
+    margin-right: 50px;
+  }
+  .authorproject_midbg_text h2 {
+    font-size: 30px;
+    text-align: start;
+    color: white;
+    margin-right: 50px;
+    padding-top: 40px;
+    font-weight: 700;
+    text-decoration: overline;
+  }
+  
+  .authorproject_midbg_text p {
+    padding-top: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+    text-align: justify;
+    color: white;
+  }
+  .cover {
+    height: 180px;
+    width: 200px;
+    float: right;
+    background-image: url("../../Assets/Images/bookimg.jpg");
+    shape-margin: 40px;
+    margin-top: 190px;
+    margin-right: 50px;
+  }
+  .authorproject_program_text {
+    float: left;
+    width: 100%;
+}
+  .authorproject_image {
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .authorproject_png {
+    width: 130px;
+    height: 130px;
+  }
+  .authorproject_update {
+  margin-top: -30px;
+  width: 300px;
+  }
+  
+  .authorproject_image_content {
+    padding-top: 100;
+    margin-left: 230px;
+  }
+  .authorproject_image_content h4 {
+    padding-top: 60px;
+  }
+  .authorproject_image_content h3 {
+    background-color: brown;
+    color: white;
+    width: 200px;
+    height: 48px;
+    font-size: 30px;
+    text-align: center;
+  
+    border-radius: 10px;
+  }
+  .authorproject_writer_main h2 {
+    background-color: brown;
+    color: white;
+    width: 50%;
+    height: 48px;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+  
+    border-radius: 10px;
+  }
+  .authorproject_writing h1 {
+    text-align: center;
+    font-size: 35px;
+  
+    font-weight: 700;
+  }
+  .authorproject_writing p {
+    text-align: center;
+    font-size: 20px;
+  
+    font-weight: 300;
+  }
+  .authorproject_writing h3 {
+    background-color: brown;
+    color: white;
+    width: 20%;
+    margin-left: 500px;
+    height: 48px;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+  
+    border-radius: 10px;
+  }
+  .authorproject_writing ul {
+    float: left;
+  }
+  .authorproject_table {
+    justify-content: flex-start;
+    display: flex;
+    float: left;
+  }
+  .authorproject_mail h1 {
+    padding-top: 20px;
+  
+    text-align: center;
+    font-size: 25px;
+  
+    font-weight: 700;
+  }
+  .authorproject_mail p {
+    text-align: center;
+    font-size: 15px;
+  
+    font-weight: 600;
+  }
+  
+  .authorproject_man {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 0px;
+  }
+  .authorproject_one {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(243, 238, 231);
+    margin: 5px;
+    padding: 1px;
+    margin-right: -102px;
+    border-radius: 25px;
+  }
+  
+  .authorproject_one h2 {
+    background-color: brown;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    height: 33px;
+    width: 33px;
+    text-align: center;
+    font-size: 20px;
+  
+    margin-right: 8px;
+  }
+  .authorproject_one h1 {
+    font-size: 20px;
+    font-family: 600;
+    color: brown;
+  }
+  .authorproject_input {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .authorproject_input_data {
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 339px;
+    height: 51px;
+    margin:0 auto;
+    font-weight: 600;
+  }
+  input[type="text"] {
+    border-radius: 24px;
+    border: 1px solid #640000;
+  }
+  .authorproject_input h1 {
+    background-color: brown;
+    color: white;
+    width: 120px;
+    height: 46px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 27px;
+    margin-bottom: 20px;
+    padding-top: -20px;
+    text-align: center;
+    border-radius: 40px;
+  }
+  .authorproject_input_context {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+  .authorproject {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .authorproject_bg {
+    background-color: #83729a;
+   background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    border-radius: 0 0% 100% 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: -1;
+  }
+  .authorproject_main {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+  .authorproject_main h1 {
+    font-size: 40px;
+    color: #801001;
+    font-weight: 800;
+  }
+  .authorproject_main h2 {
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+  }
+  .authorproject_title {
+    text-align: center;
+    font-size: 35px;
+  
+    font-weight: 700;
+  }
+  .authorproject_grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 30px;
+    text-align: start;
+    margin-right: 30px;
+    padding: 30px 0;
+    border-radius: 30px;
+}
+  .authorproject_grid3, .authorproject_grid1, .authorproject_grid2, .authorproject_grid4 {
+    padding: 15px;
+    border-width: 4px;
+    background-color: lavender;
+    border-radius: 30px;
+    width: 25%;
+    margin: 0 20px 0 0;
+    justify-content: center;
+}
+.authorproject_grid1 h3 {
+  background-color: brown;
+  color: white;
+  width: 130px;
+  text-align: center;
+  border-radius: 40px;
+  margin: 0 auto;
+}
+  .authorproject_join {
+    padding-bottom: 40px;
+  }
+  .authorproject_join h1 {
+    text-align: center;
+    font-size: 35px;
+    background-color: brown;
+    color: white;
+    width: 30%;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: 700;
+    margin: 0 auto;
+}
+.authorproject_midbg {
+  background-color: rgb(204, 115, 115);
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin: 0 0 20px 0;
+}
+  .authorproject_midbg h1 {
+    text-align: end;
+    font-size: 35px;
+    color: white;
+  
+    font-weight: 700;
+  }
+  
+  .authorproject_midbg_text {
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+  .authorproject_midbg_text h1 {
+    font-size: 50px;
+    text-align: start;
+  }
+  .authorproject_midbg_text h2 {
+    font-size: 50px;
+    text-align: start;
+    color: white;
+  
+    padding-top: 40px;
+    padding-left: 70px;
+    font-weight: 700;
+    text-decoration: overline;
+  }
+  .cover {
+    height: 225px;
+    width: 177px;
+    float: right;
+    background-image: url("../../Assets/Images/bookimg.jpg");
+    shape-margin: 6px;
+    margin-top: 96px;
+    margin-right: 120px;
+    margin-left: 7px;
+  }
+  .authorproject_imageset {
+    margin-right: 50px;
+  }
+  .authorproject_imageset_row {
+    margin-left: 150px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+  }
+  .authorproject_imagese_voice {
+    margin-bottom: 7px;
+  }
+  .authorproject_image {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .authorproject_png {
+    width: 130px;
+    height: 130px;
+  }
+  .authorproject_image img {
+    width: 620px;
+    height: 570px;
+    align-items: flex-start;
+    padding-right: 200px;
+  }
+  .authorproject_image_content {
+    padding-top: 100;
+    margin-left: 230px;
+  }
+  .authorproject_image_content h4 {
+    padding-top: 60px;
+  }
+  .authorproject_image_content h3 {
+    background-color: brown;
+    color: white;
+    width: 200px;
+    height: 48px;
+    font-size: 30px;
+    text-align: center;
+  
+    border-radius: 10px;
+  }
+.authorproject_writer {
+  float: left;
+  width: 100%;
+  background-image: url("../../Assets/Images/writer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5% 0 0 0;
+}
+.authorproject_writer_main h1 {
+  background-color: rgb(223, 219, 219);
+  color: black;
+  width: 40%;
+  /* height: 40px; */
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+  margin: 12rem auto 0;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+.authorproject_writer_main h2 {
+  background-color: brown;
+  color: white;
+  width: 20%;
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+  .authorproject_writing p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .authorproject_writing h3 {
+    background-color: brown;
+    color: white;
+    width: 20%;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 30px auto;
+}
+.authorproject_writing h4 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+  .authorproject_writing ul {
+    float: left;
+  }
+  .authorproject_table {
+    justify-content: flex-start;
+    display: flex;
+    float: left;
+  }
+  .authorproject_mail h1 {
+    padding-top: 20px;
+  
+    text-align: center;
+    font-size: 25px;
+  
+    font-weight: 700;
+  }
+  .authorproject_mail p {
+    text-align: center;
+    font-size: 15px;
+  
+    font-weight: 600;
+  }
+  .authorproject_man {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    float: left;
+    width: 100%;
+}
+.authorproject-text {
+  float: left;
+  width: 50%;
+}
+.authorproject-image img {
+  width: 100%;
+}
+.authorproject_one {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(243, 238, 231);
+  margin: 20px;
+  padding: 10px;
+  border-radius: 30px;
+  width: 80%;
+  float: left;
+}
+.authorproject-image{
+  float: left;
+  width: 50%;
+}
+.authorproject_one h2 {
+  background-color: brown;
+  border-radius: 50%;
+  color: white;
+  height: 33px;
+  width: 33px;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 57px;
+  margin-right: 13px;
+}
+  .authorproject_one h1 {
+    font-size: 20px;
+    font-family: 600;
+    color: brown;
+  }
+  .authorproject_one p {
+    text-align: center;
+  }
+  .authorproject_mail {
+    float: left;
+    width: 100%;
+}
+  .authorproject_input {
+    float: left;
+    width: 100%;
+}
+  .authorproject_input_data {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 339px;
+    height: 51px;
+  
+    font-weight: 600;
+  }
+  .authorproject_input_data input[type="text"] {
+    border-radius: 24px;
+    border: 2px solid #640000;
+  }
+  .authorproject_input h1 {
+    background-color: brown;
+    color: white;
+    width: 120px;
+    height: 46px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 27px;
+    margin-bottom: 20px;
+    padding-top: -20px;
+    text-align: center;
+    border-radius: 40px;
+  }
+  .authorproject_input_context {
+    padding-top: 10px;
+  }
+  
+  @media(max-width: 900px){
+    .authorproject_midbg_text p{
+      padding-top: 2px;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .authorproject_bg {
+      background-color: #83729a;
+      background-size: cover;
+      position: relative;
+      width: 100%;
+      border-radius: 0 0% 87% 86%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      z-index: -1;
+    }
+    .authorproject_input {
+      float: left;
+      width: 90%;
+  }
+    .authorproject_grid1 h1 {
+      font-size: 21px;
+    }
+    .authorproject_grid2 h1 {
+      font-size: 20px;
+    }
+    .authorproject_grid4 h1 {
+      font-size: 21px;
+    }
+    .authorproject_grid3 h1 {
+      font-size: 21px;
+    }
+    .authorproject_main h1 {
+      margin-bottom: 0px;
+      font-size: 29px;
+      color: #801001;
+      font-weight: 600;
+    }
+    .authorproject_main {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      margin-top: 21%;
+    }
+  
+    .authorproject_title {
+      text-align: center;
+      font-size: 23px;
+      font-weight: 500;
+    }
+    .authorproject_main h2 {
+      font-size: 15px;
+      padding-bottom: 54px;
+      color: black;
+      font-weight: 700;
+    }
+    .authorproject_title {
+      font-size: 17px;
+      margin-top: 34px;
+    }
+    .authorproject_grid1 {
+      padding: 10px;
+      margin: 20px 1px;
+      width: 100%;
+      border-width: 11px;
+      background-color: lavender;
+      border-radius: 29px;
+      justify-content: flex-start;
+  }
+  .authorproject_join h1 {
+    text-align: center;
+    font-size: 17px;
+    background-color: brown;
+    color: white;
+    width: 79%;
+    justify-content: flex-start;
+    border-radius: 7px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+    .authorproject_imageset_row {
+      margin-left: 9px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 65%;
+    }
+    .authorproject_midbg {
+      background-color: rgb(204, 115, 115);
+      height: 63%;
+      margin-bottom: 50px;
+      width: 100%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .authorproject_midbg_text h2 {
+      font-size: 24px;
+      text-align: start;
+      color: white;
+      padding-top: 31px;
+      padding-left: -6px;
+      font-weight: 600;
+      text-decoration: overline;
+    }
+    .authorproject_program_text h1 {
+      font-size: 25px;
+      margin-left: 3px;
+    }
+    .authorproject_image {
+      flex-direction: column;
+      display: flex;
+      justify-content: flex-start;
+    }
+    .authorproject_midbg_text p {
+      padding-top: 8px;
+      padding-left: 46px;
+      padding-right: 26px;
+      margin-left: 2px;
+      margin-right: 7%;
+      text-align: justify;
+      color: white;
+      padding-bottom: 0px;
+    }
+    .cover {
+      height: 181px;
+      width: 125px;
+      float: right;
+  }
+    .authorproject_image_content {
+      text-align: start;
+      font-size: 13px;
+      padding-left: 14px;
+      margin-top: -47px;
+      padding-right: 10px;
+      margin-left: 18px;
+    }
+    .authorproject_imageset {
+      margin-right: 66%;
+      display: flex;
+      padding-left: 28%;
+    }
+    .authorproject_image_content h3 {
+      background-color: brown;
+      color: white;
+      width: 152px;
+      height: 41px;
+      font-size: 22px;
+      text-align: center;
+      border-radius: 10px;
+    }
+    .authorproject_image img {
+      width: 80%;
+      height: 0%;
+      align-items: flex-start;
+      padding-bottom: 5%;
+      padding-right: 5%;
+    }
+    .authorproject_mail h1 {
+      padding-top: 0px;
+      text-align: center;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .authorproject_mail p {
+      text-align: center;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .authorproject_input {
+      display: flex;
+      margin-left: 45px;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 8px;
+      padding-bottom: 0px;
+    }
+    .authorproject_input_data {
+      font-size: 16px;
+      padding: 10px;
+      width: 252px;
+      height: 6px;
+      font-weight: 600;
+    }
+    .authorproject_input h1 {
+      background-color: brown;
+      color: white;
+      width: 91px;
+      height: 30px;
+      margin-left: 4px;
+      margin-top: 7px;
+      font-size: 19px;
+      margin-bottom: 8px;
+      text-align: center;
+      border-radius: 40px;
+    }
+    
+    .authorproject_input_context {
+      margin: 0 auto;
+  }
+    .authorproject_writing h4 {
+      padding-top: 0px;
+      padding-bottom: 0px;
+      text-align: center;
+      font-size: 19px;
+      font-weight: 600;
+    }
+    .authorproject_man {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-right: 1px;
+      padding-top: 0px;
+      padding-left: 1px;
+    }
+    .authorproject_one {
+      display: flex;
+      flex-direction: row;
+      background-color: rgb(243, 238, 231);
+      margin: 11px;
+      width: 100%;
+      padding: 2px;
+      border-radius: 21px;
+  }
+    .authorproject_manimage {
+      width: 70vh;
+      height: 73vh;
+      width: 100%;
+      margin-top: 23px;
+    }
+    .authorproject_writing h3 {
+      background-color: brown;
+      color: white;
+      width: 27%;
+      margin-left: 37%;
+      height: 29px;
+      font-style: italic;
+      font-size: 18px;
+      text-align: center;
+      margin-top: 25px;
+      border-radius: 10px;
+    }
+    .authorproject_writing h1 {
+      text-align: center;
+      font-size: 21px;
+      font-weight: 600;
+    }
+    .authorproject_writing p {
+      text-align: center;
+      font-size: 16px;
+      padding-top: 0px;
+      font-weight: 300;
+    }
+    .authorproject_writer_main h2 {
+      background-color: brown;
+      color: white;
+      width: 45%;
+      height: 34px;
+      font-style: italic;
+      font-size: 22px;
+      text-align: center;
+      margin: 16px auto;
+      border-radius: 10px;
+  }
+    .authorproject_writer_main h1 {
+      background-color: rgb(223, 219, 219);
+      color: black;
+      width: 100%;
+      height: 43px;
+      font-style: italic;
+      font-size: 19px;
+      text-align: center;
+      margin-top: 17%;
+      border-radius: 10px;
+    }
+  }
+  @media (max-width: 320px) {
+    .authorproject_image_content h3 {
+      width: 149px;
+      height: 30px;
+      font-size: 19px;
+    }
+
+
+.authorproject_midbg_text h1 {
+  font-size: 26px;
+}
+    .authorproject_manimage {
+      width: 34vh;
+      height: 55vh;
+      margin-left: 13%;
+      margin-top: 23px;
+    }
+    }
+    @media(min-width: 375px) and (max-width: 425px){
+      .authorproject_manimage{
+        height: 48vh ;
+        width: 79% ;
+        margin-top: 18px;
+        margin-bottom: 41px;
+        margin-left: 65px;
+      }
+    .authorproject_input {
+      display: flex;
+      margin-left: 18px;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 8px;
+      padding-bottom: 0px;
+    }
+    .authorproject_imageset_row {
+      margin-left: -20px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 65%;
+    }
+    .authorproject_midbg_text h1 {
+      font-size: 27px;
+      text-align: start;
+      padding-left: 52px;
+    }
+  }
+
+  .div-1 {
+    width: 70%;
+    font-size: 15px;
+    float: left;
+}
+.div-2 {
+  float: left;
+  width: 30%;
+}
+.authorproject_writing {
+  float: left;
+  width: 100%;
+  padding: 30px 0;
+}
+h3.read-more {
+    background-color: #640000;
+    color: white;
+    width: 132px;
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 22px;
+}
+@media (max-width-425) {
+
+    .div-1{
+        width: 100%;
+        font-size: 15px;
+    }
+    .div-2{
+        margin-top: 47px;
+        margin-left: -29px;
+    }
+
+    .authorproject_update {
+        margin-top: 108px;
+        width: 350px;
+    }
+}
+/* *************************************************************** */
+@media (max-width:1024px) {
+  /* .submit {
+    margin: 20px auto;
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+.submit button {
+  background: #640000;
+  color: #fff;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 17px;
+}   */
+}
+@media (max-width:768px) {
+  .div-2 img {
+    width: 100%;
+}
+.authorproject-image img {
+  width: 100%;
+  margin: 80% auto;
+}  
+/* .submit {
+  margin: 20px auto;
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+}
+.submit button {
+background: #640000;
+color: #fff;
+border: none;
+padding: 10px 40px;
+border-radius: 17px;
+} */
+}
+@media (max-width:425px) {
+  .authorproject-text {
+    float: left;
+    width: 100%;
+}
+.authorproject-image {
+  float: left;
+  width: 100%;
+}
+.authorproject-image img {
+  width: 100%;
+  margin: 0% auto;
+}
+.authorproject_grid {
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+  text-align: start;
+  margin-right: 30px;
+  padding: 30px 0;
+  border-radius: 30px;
+}
+.topPart {
+  background-image: url('../../Assets/Images/frame2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 ;
+}
+}

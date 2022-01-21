@@ -1,0 +1,15 @@
+.faq-main{
+    background: #ffcdd6;
+    float: left;
+    width: 100%;
+    padding: 8.5rem 0 5rem 0;
+    font-style: italic;
+}
+.faq-content h5{
+    color: #640000;
+}
+.faq-heading{
+
+    color: #640000;
+    padding: 1rem 0 2rem 0;
+}

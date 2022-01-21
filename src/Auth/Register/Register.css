@@ -1,0 +1,38 @@
+.sign-button{  
+    background: #ff5a00;
+    border: none;
+    width: 45%;
+    margin: 15px 0;
+    border-radius: 10px 0;
+    color: #fff;
+}
+.sign-button p {
+    padding: 5px 0;
+    margin: 0;
+}
+.username{
+    float: left;
+    width: 100%;
+}
+.username label {
+    float: left;
+    width: 90%;
+    margin: 5px 21.5px;
+    text-align: left;
+}
+.username input {
+    float: left;
+    width: 90%;
+    text-align: left;
+    margin: 5px 21.5px;
+    border-radius: 10px 0 !important;
+    border: 1px solid #767676 !important;
+}
+.back {
+    float: left;
+    margin: 5px 10px;
+}
+.back svg {
+    width: 24px;
+    height: 24px;
+}

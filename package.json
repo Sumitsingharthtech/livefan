@@ -1,0 +1,59 @@
+{
+  "name": "fanfiction",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://www.fanfiction.fun/demo/",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.6.3",
+    "axios": "^0.24.0",
+    "bootstrap": "^4.6.1",
+    "jquery": "^3.6.0",
+    "react": "^17.0.2",
+    "react-alert": "^7.0.3",
+    "react-bootstrap": "^2.1.0",
+    "react-dom": "^17.0.2",
+    "react-facebook-login": "^4.1.1",
+    "react-google-login": "^5.2.2",
+    "react-icons": "^4.3.1",
+    "react-loader-spinner": "^5.0.9",
+    "react-rating": "^2.0.5",
+    "react-router-dom": "^5.2.0",
+    "react-router-scroll-to-top": "^1.1.2",
+    "react-scripts": "4.0.2",
+    "react-scroll-to-top": "^1.0.8",
+    "react-scroll-up": "^1.3.7",
+    "react-show-more": "^2.0.0",
+    "react-show-more-button": "^1.0.0",
+    "react-show-more-text": "^1.5.2",
+    "react-star-ratings": "^2.3.0",
+    "react-sticky-nav": "^4.0.6",
+    "sweetalert2": "^11.3.6",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
