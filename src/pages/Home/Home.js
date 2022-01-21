@@ -11,7 +11,7 @@ import Book3 from "./../../Assets/Images/book3.jpg";
 import Book4 from "./../../Assets/Images/book4.jpg";
 import Book5 from "./../../Assets/Images/banner.png";
 import ShowMore from 'react-show-more';
-  //  {/* background-image: url(../../Assets/Images/banner.png); */}
+
 
 import "./Home.css";
 import axios from "axios";
@@ -39,22 +39,35 @@ const Home = () => {
     zIndex: -1,
     left: 0,
     top: 0,
-    width: "100%"
+    width: "100%",
+    height:"100%"
+  };
+  const buttonStyle = {
+    color: "white",
+    padding: "15px",
+    borderRadius: "50%",
+    // background: "red",
+    opacity: 0.5,
+    fontSize: "80px"
   };
 
   return (
     <>
     {/* const slider = ( */}
-  <AwesomeSlider style={{height: "400px"}} interval={3000} >
+  <AwesomeSlider organicArrows={false} style={{height: "400px"}}    buttonContentRight={<p style={buttonStyle}>{">"}</p>}
+      buttonContentLeft={<p style={buttonStyle}>{"<"}</p>} interval={1000}>
   <div style={{ zIndex: 2 }}>
         <div>
           <img
             style={bgImg}
             alt="Wow"
-            src={Book1}
+            src={Book2}
             />
              <h1>Fanfiction
 </h1>
+
+
+
           <h1>Accademy</h1>
           <button className="banner-button" >GET INSPIRED</button>
         </div>
@@ -65,7 +78,7 @@ const Home = () => {
           <img
             style={bgImg}
             alt="Wow"
-            src={Book2}
+            src={Book1}
             />
            <h1>Fanfiction
 </h1>
@@ -79,7 +92,7 @@ const Home = () => {
           <img
             style={bgImg}
             alt="Wow"
-            src={Book3}
+            src={Book5}
             />
             <h1>Fanfiction
 </h1>
@@ -88,6 +101,7 @@ const Home = () => {
         </div>
         
       </div>
+
       <div style={{ zIndex: 2 }}>
         <div>
           <img
@@ -100,26 +114,20 @@ const Home = () => {
           <h1>Accademy</h1>
           <button className="banner-button" >GET INSPIRED</button>
         </div>
-        
       </div>
+
       <div style={{ zIndex: 2 }}>
         <div>
           <img
             style={bgImg}
             alt="Wow"
-            src={Book5}
+            src={Book3}
             />
-             <h1>Fanfiction
-</h1>
+             <h1>Fanfiction </h1>
           <h1>Accademy</h1>
           <button className="banner-button" >GET INSPIRED</button>
-         
         </div>
-        
-      </div>
-
- 
-      
+      </div>      
   </AwesomeSlider>
 
 

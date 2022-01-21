@@ -34,6 +34,7 @@ form.form-part {
   border-width:  0.5px;
   width: 74%;
 }
+
 .create-book-inp:focus { 
   outline: none !important;
   border:1px solid #640000;
@@ -51,9 +52,51 @@ select.language-selection:focus{
   outline: none;
   border: 1px solid #640000;
 }
-.rating-star{
-  display: flex;
+
+
+/* ************************************************Star CSS ******************************************* */
+
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
 }
+.rate:not(:checked) > input {
+  position:absolute;
+  top:-9999px;
+}
+.rate:not(:checked) > label {
+  float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:30px;
+  color:#ccc;
+}
+.rate:not(:checked) > label:before {
+  content: '★ ';
+}
+.rate > input:checked ~ label {
+  color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+
+/* *********************************************************end Rating Star CSS     **************************** */
+/* .rating-star{
+  display: flex;
+} */
 h1.star-icon {
   padding-left: 25px;
 }

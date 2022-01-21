@@ -5,8 +5,10 @@ import "./Login.css";
 import { MdOutlineCancel } from "react-icons/md";
 import axios from "axios";
 import { GoogleLogin } from "react-google-login";
+
 import FacebookLogin from 'react-facebook-login/dist/facebook-login-render-props';
 import {BsFacebook} from 'react-icons/bs';
+
 import {FcGoogle}from 'react-icons/fc';
 import Register from "../Register/Register";
 
@@ -25,7 +27,7 @@ const Login = () => {
 
   const componentClicked = (data) => {
     console.log(data);
-    // window.location.reload(true);
+    // window.location.reload(false);
     setTimeout(() => {
       window.location.reload(true);
     }, 6000);
@@ -106,11 +108,12 @@ const Login = () => {
           <form onSubmit={onSubmitForm}>
             <div className="login-email">
               <label for="fname">E-mail</label>
-              <input
+              <input className="login-input"
                 type="email"
                 id="fname"
                 onChange={onEnteredLoginChange}
                 name="enteredLoginUser"
+                maxlength="35"
                 required
               />
             </div>
@@ -118,9 +121,11 @@ const Login = () => {
               <label for="fname">Password</label>
               <input
                 type="password"
+                className="login-input"
                 id="fname"
                 onChange={onEnteredLoginChange}
                 name="enteredLoginPassword"
+                maxlength="20"
                 required
               />
             </div>
@@ -155,13 +160,11 @@ const Login = () => {
               callback={responseFacebook}
               render={renderProps => (
                 <button className="feacbookButton" onClick={(e) => { e.preventDefault(); renderProps.onClick(); }}>
-              <BsFacebook/> Login with Facebook
+                 <BsFacebook/> Login with Facebook
                 </button>
               )}
             />
           </button>
-
-
 
 
 

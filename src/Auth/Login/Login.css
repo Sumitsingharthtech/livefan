@@ -108,6 +108,10 @@
     float: left;
     width: 100%;
 }
+
+.login-input{
+  padding: 3px 10px;
+}
 .googleButton svg {
     width: 24px;
     height: 24px;

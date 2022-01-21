@@ -1,10 +1,13 @@
 import React from "react";
 import "./CreateBooks.css";
-import { Link } from "react-router-dom";
-import Rating from "react-rating";
+// import { Link } from "react-router-dom";
+import StarsRating from 'stars-rating'
 
 
 const CreateBooks = () => {
+  const ratingChanged = (newRating) => {
+    console.log(newRating)
+  }
   return (
     <>
       <div className="create-page">
@@ -18,7 +21,8 @@ const CreateBooks = () => {
                 <input
                   className="create-book-inp"
                   type="text"
-                  placeholder="Chapter titles sholud be within 60 characters."
+                  placeholder="Chapter titles sholud be within 50 characters."
+                  maxLength= "50"
                   required
                 />
               </div>
@@ -48,14 +52,11 @@ const CreateBooks = () => {
 
               <div className="label-input-div">
                 <label className="all-label"> Content Rating </label> <br />
-
-                <div className="rating-star">
-<Rating
-emptySymbol="fa fa-star-o fa-2x"
-fullSymbol="fa fa-star fa-2x"
-fractions={2}
-/>
-                </div>
+                <StarsRating
+  count={5}
+  onChange={ratingChanged}
+  size={24}
+  color2={'#ffd700'} />
               </div>
 
               <div className="label-input-div">
@@ -67,16 +68,15 @@ fractions={2}
                   className="text-area-1"
                   cols="30"
                   rows="5"
-                  minLength={20}
-                  maxLength={300}
+                  maxlength="600"
                   placeholder="Description......."
                 ></textarea>
               </div>
 
               <div className="btn-div">
-                <Link to= "/chapter">
+                {/* <Link to= "/chapter"> */}
                 <button className="create-button"> Create </button>
-                </Link>
+                {/* </Link> */}
                 
 
               </div>

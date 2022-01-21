@@ -19,6 +19,8 @@ import Marriage from "./pages/Browse/Marriage/Marriage";
 import Paranormal from "./pages/Browse/Paranormal/Paranormal";
 import Romance from "./pages/Browse/Romance/Romance";
 import Werewolf from "./pages/Browse/Werewolf/Werewolf";
+
+// import Chapter from "./pages/CreateAddChapter/Chapter";
 // import PageNotFound from "./Components/404/PageNotFound";
 // Footer Pages
 import About from "./pages/FooterPages/About us/Aboutus";
@@ -60,6 +62,9 @@ const App = () => {
             <Route exact path="/romance" component={Romance} />
             <Route exact path="/werewolf" component={Werewolf} />
             <Route exect path="/author-project" component={AuthorProject} />
+
+            
+            {/* <Route exact path="/chapter" component={Chapter} /> */}
             {/* <Route component={PageNotFound} /> */}
             <Route exact path="/aboutus" component={About} />
             <Route exact path="/business" component={Business} />

@@ -86,18 +86,22 @@ const loginClose=()=>{
        <div className="username">
          <label for="fname">Username</label>
          <input
+         className="login-input"
            type="text"
            id="fname"
            name="enteredUserName"
+           maxlength="35"
            onChange={onEnteredSignupChange}
          />
        </div>
        <div className="login-email">
          <label for="fname">E-mail</label>
          <input
+         className="login-input"
            type="email"
            id="fname"
            name="enteredUserEmail"
+           maxlength="30"
            onChange={onEnteredSignupChange}
            pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
            required
@@ -106,9 +110,11 @@ const loginClose=()=>{
        <div className="login-password">
          <label for="fname">Password</label>
          <input
+         className="login-input"
            required
            type="password"
            id="fname"
+           maxlength="20"
            name="enteredUserPassword"
            onChange={onEnteredSignupChange}
          />
