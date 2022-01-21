@@ -3,7 +3,7 @@ import logo from "../../Assets/Images/login.png";
 import "./Register.css";
 // import { BsFacebook } from 'react-icons/bs'
 // import { FcGoogle } from 'react-icons/fc'
-import { Link,useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { MdOutlineCancel } from "react-icons/md";
 import axios from "axios";
 
@@ -34,7 +34,7 @@ const loginClose=()=>{
   // useEffect(() => {
   //   onSingupFormSubmit();
   // }, [])
-  const history = useHistory();
+  // const history = useHistory();
 
   const loginType = {
     "logintype": "app"
