@@ -6,8 +6,8 @@ import { MdOutlineCancel } from "react-icons/md";
 import axios from "axios";
 import { GoogleLogin } from "react-google-login";
 
-import FacebookLogin from 'react-facebook-login/dist/facebook-login-render-props';
-import {BsFacebook} from 'react-icons/bs';
+import  FacebookLogin  from 'react-facebook-login';
+// import {BsFacebook} from 'react-icons/bs';
 
 import {FcGoogle}from 'react-icons/fc';
 import Register from "../Register/Register";
@@ -25,17 +25,14 @@ const Login = () => {
 
   
 
-  const componentClicked = (data) => {
-    console.log(data);
-    // window.location.reload(false);
-    setTimeout(() => {
-      window.location.reload(true);
-    }, 6000);
-  };
-
-  const responseFacebook = (response) => {
+  const responseFacebook = (response) =>{
     console.log("login result", response);
-  };
+}
+
+const componentClicked = (data) =>{
+    console.log(data);
+}
+
 
   let googleEmail = localStorage.getItem("googleEmail");
   let googleId = localStorage.getItem("googleId");
@@ -43,7 +40,6 @@ const Login = () => {
   const loginType = {
     logintype: "google",
   };
-
   const onLoginSuccess = async (res) => {
     console.log("Login Success:", res.profileObj);
     localStorage.setItem("googleEmail", res.profileObj.email);
@@ -92,6 +88,7 @@ const Login = () => {
 
   return (
     <>
+
     <div className="login-background">
       {showLogin && (
         <div className="login-page">
@@ -152,18 +149,14 @@ const Login = () => {
 
 
           <button className="facebook">
-            <FacebookLogin
-              appId="463901368599758"
+            <FacebookLogin style = {{width: "20%"}}
+              appId="275733281291976"
               autoLoad={true}
               fields="name,email,picture"
               onClick={componentClicked}
               callback={responseFacebook}
-              render={renderProps => (
-                <button className="feacbookButton" onClick={(e) => { e.preventDefault(); renderProps.onClick(); }}>
-                 <BsFacebook/> Login with Facebook
-                </button>
-              )}
-            />
+              
+              />
           </button>
 
 
